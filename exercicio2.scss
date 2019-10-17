@@ -1,0 +1,25 @@
+$fonte: 1em;
+$cor: gray;
+
+@mixin text {
+    font-size: $font;
+    color:$cor;
+}
+
+.text-default{
+    @include text;
+}
+.text-primary{
+    @include text;
+    color:blue;
+}
+.text-second{
+    @include text;
+    color:green;
+}
+
+
+
+
+
+

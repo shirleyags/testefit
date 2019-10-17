@@ -1,0 +1,31 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    padding-top: 40px;
+    font-size:50px;
+}
+#caixa{
+    text-align: center;
+    border:1px solid black;
+    margin-left:500px;
+    margin-right:500px;
+
+}
+#email{
+    margin-bottom:30px;
+}
+.campo{
+    padding: 10px 20px;
+    font-size:15px;
+    box-sizing: border-box;
+}
+#botao{
+    margin-top: 50px;
+    margin-bottom:30px;
+    padding: 5px 90px;
+    font-size: 20px;
+    box-sizing: border-box;
+
+}
+

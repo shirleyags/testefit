@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+<html>
+<script>
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+    function mostra(frase) {
+        alert(frase);
+    }
+
+    let primeiroNumero = Number(prompt("Digite um número"));
+    let segundoNumero = Number(prompt("Digite um número"));
+    let terceiroNumero = Number(prompt("Digite um número"));
+
+    pulaLinha();
+
+    if(primeiroNumero>segundoNumero || primeiroNumero>terceiroNumero  ){
+        mostra("O maior número é "+primeiroNumero+"!");
+    }
+    else if(segundoNumero>primeiroNumero || segundoNumero>terceiroNumero  ){
+        mostra("O maior número é "+segundoNumero+"!");
+    }
+    else{
+        mostra("O maior número é "+terceiroNumero+"!");
+    }
+
+</script>
+
+</html>
